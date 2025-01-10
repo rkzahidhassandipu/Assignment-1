@@ -178,7 +178,26 @@
 
 /* Dr. Muhammad Yunus section code start here */
 .yunus{
+    background-image: url("../assets/quote-bg.png");
+    border: 1px solid #bdbcbc;
     background-color: #fff;
-    border: 1px solid #000;
+    background-repeat: no-repeat;
+    padding: 2.5em 1.5em;
+    border-radius: 1em;
+    background-position: 26px 15px;
+}
+.yunus > p{
+    color: #4e4b4b;
+}
+.repu-yunus{
+    margin: 1rem 0;
+}
+.repu-yunus > h2{
+    font-size: 20px;
+    color: #4f4d4d;
+    margin-bottom: 10px;
+}
+.repu-yunus > p{
+    color: #7e7b7b;
 }
 /* Dr. Muhammad Yunus section code end here */
