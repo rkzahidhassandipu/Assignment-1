@@ -1,0 +1,30 @@
+/* reset code start here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* reset code end here */
+
+/* common code start here  */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.flex-direction{
+    display: flex;
+}
+.flex-item{
+    padding: 2rem;
+}
+.font-family{
+    font-family: serif;
+}
+.cursor{
+    cursor: pointer;
+}
+.btn-primary{
+    outline: none;
+}
+
+/* common code end here  */
