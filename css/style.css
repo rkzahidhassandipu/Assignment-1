@@ -46,7 +46,7 @@
     background-color: #ebebeb;
 }
 .section-spacing{
-    padding: 2rem;
+    padding: 2rem 0;
 }
 /* common code end here  */
 
@@ -261,3 +261,33 @@ td select {
 }
 /* recent-news section end here */
 
+/* donate today section start here */
+.donate{
+    text-align: center;
+}
+.donate-item{
+    background-color: #fff;
+    border: 1px solid #bdbcbc;
+    margin: 20px;
+    border-radius: 1em;
+}
+.donate-item > h2{
+    font-size: 40px;
+    padding: 20px;
+}
+.donate-bg{
+    background-color: #C6E4D6;
+}
+.donate-amount{
+    text-align: center;
+}
+.donate-amount > input{
+    border: none;
+    outline: none;
+    width: 76%;
+    padding: 10px 1em;
+    border-bottom: 1px solid #bdbcbc;
+    text-align: center;
+    font-size: 20px;
+}
+/* donate today section end here */
