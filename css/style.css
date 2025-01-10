@@ -95,6 +95,11 @@
     background-color: #006A50;
     color: white;
 }
+.banner-btn:hover{
+    border: 1px solid #006A50;
+    color: #006A50;
+    background: none;
+}
 /* banner section code end here */
 
 /* pillars-cars secttion code start here */
@@ -116,5 +121,64 @@
 /* pillars-cars secttion code end here */
 
 /* future section code start here */
-
+.future{
+    margin-bottom: 1rem;
+}
+.future > p{
+    line-height: 23px;
+}
+.card-future{
+    margin: 1em;
+    padding: 2em;
+    border-radius: 1em;
+}
+.card-future > h3{
+    margin: 10px 0;
+}
+.card-future-skey{
+    background-color: #d0e1ff;
+}
+.card-future-green{
+    background-color: #C6E4D6;
+}
+.card-future-yellow{
+    background-color: #F7EBCF;
+}
+.btn-skey{
+    background-color: #5490F5;
+    color: white;
+    margin: 1em 0;
+}
+.btn-skey:hover{
+    border: 1px solid #5490F5;
+    background: none;
+    color: #5490F5;
+}
+.btn-green{
+    background-color: #09A15C;
+    color: white;
+    margin: 1em 0;
+}
+.btn-green:hover{
+    border: 1px solid #09A15C;
+    background: none;
+    color: #09A15C;
+}
+.btn-yellow{
+    background-color: #FFC239;
+    color: white;
+    margin: 1em 0;
+}
+.btn-yellow:hover{
+    border: 1px solid #FFC239;
+    background: none;
+    color: #FFC239;
+}
 /* future section code end here */
+
+/* Dr. Muhammad Yunus section code start here */
+.yunus{
+    background-color: #fff;
+    border: 1px solid #000;
+}
+/* Dr. Muhammad Yunus section code end here */
