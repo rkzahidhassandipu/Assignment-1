@@ -1,8 +1,12 @@
+/* font family link */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* reset code start here */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Fira Sans", serif;
 }
 /* reset code end here */
 
@@ -13,18 +17,81 @@
 }
 .flex-direction{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .flex-item{
-    padding: 2rem;
+    padding: 0rem;
 }
 .font-family{
     font-family: serif;
 }
 .cursor{
     cursor: pointer;
+    transition: 1s;
 }
 .btn-primary{
     outline: none;
 }
-
+.btn-primary{
+    padding: 12px 30px;
+    background: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+.bg-primary{
+    width: 100%;
+    background-color: #ebebeb;
+}
+.section-spacing{
+    padding: 2rem;
+}
 /* common code end here  */
+
+/* navbar section code start here */
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    align-items: center;
+}
+.nav-btn{
+    border: 2px solid #006A50;
+    color: #006A50;
+}
+.nav-btn:hover{
+    background-color: #C6E4D6;
+    transition: 1s;
+}
+.logo{
+    font-size: 1.8em;
+}
+/* navbar section code end here */
+
+/* banner section code start here */
+.banner{
+    background-color: #C6E4D6;
+    padding: 80px 100px;
+    border-radius: 20px;
+}
+.banner-item{
+    width: 50%;
+}
+.banner-text > h3{
+    font-size: 20px;
+    color: #b3b3b3;
+}
+.banner-text > h2{
+    font-size: 56px;
+    margin: 1.5rem 0;
+}
+.banner-img img{
+    width: 100%;
+}
+.banner-btn{
+    background-color: #006A50;
+    color: white;
+}
+/* banner section code end here */
