@@ -291,3 +291,56 @@ td select {
     font-size: 20px;
 }
 /* donate today section end here */
+
+/* sub-news section start here */
+.sub-news{
+    text-align: center;
+    background-color: #C6E4D6;
+    border-radius: 1em;
+    padding: 2em;
+}
+.sub-news > h2{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.sub-news > p{
+    line-height: 23px;
+    color: #0E0E0E;
+}
+.subcribe{
+    margin: 10px 0;
+}
+.subcribe > input{
+    width: 50%;
+    outline: none;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 10px 0 0 10px;
+}
+.subcribe > button{
+    border-radius: 0 10px 10px 0;
+    /* margin: 2px 0 0 -4px; */
+    position: relative;
+    top: 2px;
+    left: -4px;
+    padding: 1px -3px;
+    padding: 10px 18px;
+}
+.sub-news > .promise{
+    font-size: 13px;
+    color: #444343;
+}
+.footer{
+    text-align: center;
+    padding: 2em 0;
+    margin: 1em 0;
+}
+.footer > div{
+    width: 70%;
+    border-bottom: 1px solid #d4d3d3;
+    margin: 1em auto;
+}
+.footer > img{
+    margin: 0 20px;
+}
+/* sub-news section end here */
