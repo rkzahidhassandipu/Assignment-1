@@ -20,12 +20,12 @@
     justify-content: center;
     align-items: center;
 }
-.flex-item{
+/* .flex-item{
     padding: 0rem;
 }
 .font-family{
     font-family: serif;
-}
+} */
 .cursor{
     cursor: pointer;
     transition: 1s;
@@ -86,6 +86,7 @@
 .banner-text > h2{
     font-size: 56px;
     margin: 1.5rem 0;
+    font-weight: 700;
 }
 .banner-img img{
     width: 100%;
@@ -95,3 +96,25 @@
     color: white;
 }
 /* banner section code end here */
+
+/* pillars-cars secttion code start here */
+.pillars-header{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.pillars-cars > .card{
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 16px;
+}
+
+.pillars-cars > .card > h3{
+    margin: 15px 0;
+}
+/* pillars-cars secttion code end here */
+
+/* future section code start here */
+
+/* future section code end here */
