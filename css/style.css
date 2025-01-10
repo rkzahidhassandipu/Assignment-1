@@ -231,5 +231,33 @@ td select {
     padding: 0.8em 1.5em;
     outline: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 /* opinion section end here */
+
+/* recent-news section start here */
+.recent-news{
+    background-color: #fff;
+    border-radius: 1em;
+    padding: 2em;
+    margin: 2em 0;
+    align-items: start;
+}
+.recent-news-img > img{
+    border-radius: 1em;
+    margin: 1em;
+}
+.recent-news-txt{
+    padding: 1em 1em 1em 2em;
+}
+.recent-news-txt > h2{
+    margin-bottom: 1em;
+}
+.recent-news-txt > div{
+    margin: 1em 0;
+}
+.recent-news-txt > p{
+    line-height: 23px;
+}
+/* recent-news section end here */
+
