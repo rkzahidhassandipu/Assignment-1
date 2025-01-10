@@ -201,3 +201,35 @@
     color: #7e7b7b;
 }
 /* Dr. Muhammad Yunus section code end here */
+
+
+/* opinion section start here */
+.opinion{
+    background: white;
+    padding: 2em;
+    border-radius: 1em;
+    margin: 2em 0;
+}
+.table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+th{
+    background-color: #C6E4D6;
+}
+td, th{
+    border: 1px solid #dcdcdc;
+    padding: 1em;
+}
+.option{
+    text-align: center;
+}
+td select {
+    background-color: #C6E4D6;
+    text-align: center;
+    padding: 0.8em 1.5em;
+    outline: none;
+    border-radius: 5px;
+}
+/* opinion section end here */
