@@ -271,12 +271,23 @@ td select {
     margin: 20px;
     border-radius: 1em;
 }
+.donate-item:hover{
+    background-color: #C6E4D6;
+    transition: 0.5s;
+    cursor: pointer;
+    color: white;
+}
 .donate-item > h2{
     font-size: 35px;
     padding: 20px;
 }
 .donate-bg{
     background-color: #C6E4D6;
+}
+.donate-bg:hover{
+    background-color: #09A15C;
+    color: white;
+    transition: 1s;
 }
 .donate-amount{
     text-align: center;
