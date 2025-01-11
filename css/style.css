@@ -84,7 +84,7 @@
     color: #b3b3b3;
 }
 .banner-text > h2{
-    font-size: 56px;
+    font-size: 35px;
     margin: 1.5rem 0;
     font-weight: 700;
 }
@@ -272,7 +272,7 @@ td select {
     border-radius: 1em;
 }
 .donate-item > h2{
-    font-size: 40px;
+    font-size: 35px;
     padding: 20px;
 }
 .donate-bg{
@@ -340,7 +340,8 @@ td select {
     border-bottom: 1px solid #d4d3d3;
     margin: 1em auto;
 }
-.footer > img{
+.footer > a{
     margin: 0 20px;
+    text-decoration: none;
 }
 /* sub-news section end here */
